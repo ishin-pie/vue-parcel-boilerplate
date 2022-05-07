@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    This sample is scaffolded by <a href="https://github.com/ishin-pie" target="_blank">Ishin</a>
+    This sample is scaffolded by
+    <a href="https://github.com/ishin-pie" target="_blank">Ishin</a>
   </div>
 </template>
 

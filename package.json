@@ -2,10 +2,10 @@
   "name": "vue-parcel-boilerplate",
   "version": "1.0.0",
   "scripts": {
-    "serve": "npm run clean && parcel --no-source-maps",
+    "dev": "npm run clean && parcel --no-source-maps",
     "bundle": "vue-tsc --noEmit && parcel build --no-source-maps",
     "prebundle": "npm run clean",
-    "dev": "bash bin/build-dev.sh",
+    "serve": "bash bin/build-dev.sh",
     "build": "bash bin/build.sh",
     "clean": "rm -rf dist",
     "lint": "eslint . --ext .vue,.js,.cjs,.ts --ignore-path .gitignore --fix"

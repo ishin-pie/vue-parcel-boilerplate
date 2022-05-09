@@ -1,2 +1,2 @@
 #!/bin/bash
-NODE_ENV=$1 npm run serve
+NODE_ENV=$1 npm run dev
